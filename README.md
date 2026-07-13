@@ -65,22 +65,20 @@ ones that cost you.
 
 ## Sample digest
 
-*Example of the summarized format, built from real items the pipeline collected
-(live digests are in [`/digests`](digests/); when summarization is degraded the body
-is headlines-by-source instead):*
+*Excerpt from [the pipeline's first real digest](digests/2026-07-13.md), written by
+Claude from that day's items (all digests live in [`/digests`](digests/); when
+summarization is degraded the body is headlines-by-source instead):*
 
-> # SectorPulse digest — 2026-07-13
->
 > ## What mattered
 >
-> - **Charging infrastructure: Eviny and Mer merge into Northern Europe's largest fast-charging provider.**
->   *Why it matters:* consolidation among European CPOs is accelerating — scale is becoming the price of entry in fast charging. [[1]](https://www.electrive.com/2026/07/10/eviny-and-mer-merge-to-become-northern-europes-largest-fast-charging-provider/)
-> - **Policy: The European Commission's Battery Booster will put €1.5B into the European battery industry.**
->   *Why it matters:* a direct subsidy signal for localized cell supply chains that charging and storage vendors can plan against. [[1]](https://chargedevs.com/newswire/european-commissions-battery-booster-to-invest-e1-5-billion-in-the-european-battery-industry/)
-> - **Fleet & V2G: Port of Long Beach commits $58.2M to electrification; California school-bus fleet goes live with managed charging and V2G.**
->   *Why it matters:* public-fleet money keeps arriving ahead of consumer demand — depot charging remains the near-term revenue pool. [[1]](https://chargedevs.com/newswire/port-of-long-beach-invests-58-2-million-to-expand-vehicle-and-equipment-electrification/) [[2]](https://chargedevs.com/newswire/the-mobility-house-enables-smart-charging-and-v2g-for-california-electric-school-bus-fleet/)
+> - **Charging infrastructure: Eviny and Mer merge to create Northern Europe's largest fast-charging network, while Grab plans fifteenfold expansion to 6,000+ ports across Vietnam by 2028.**
+>   *Why it matters:* Consolidation in Nordic fast-charging and aggressive buildout in Southeast Asia signal competing regional strategies for market dominance; fragmented networks remain a demand constraint in emerging EV markets. [[1]](https://www.electrive.com/2026/07/10/eviny-and-mer-merge-to-become-northern-europes-largest-fast-charging-provider/) [[2]](https://www.electrive.com/2026/07/10/grab-plans-fifteenfold-expansion-of-its-charging-network-in-vietnam/)
+> - **Battery supply and grid integration: BYD secures 11.3 GWh contract for world's largest solar-plus-storage project in Abu Dhabi; EU Battery Booster commits €1.5B in interest-free loans to ramp European cell manufacturing.**
+>   *Why it matters:* Stationary storage is becoming a critical revenue stream for battery makers and grid operators; EU policy now targets manufacturing scale-up via capital structure (loans vs. grants) to compete with Chinese dominance. [[1]](https://electrek.co/2026/07/10/byd-masdar-11-gwh-rtc-storage-abu-dhabi/) [[2]](https://chargedevs.com/newswire/european-commissions-battery-booster-to-invest-e1-5-billion-in-the-european-battery-industry/)
+> - **Commercial EV infrastructure: Port of Long Beach invests $58.2M in electrified cargo equipment and harbor craft; California school district deploys smart charging and V2G for e-bus fleet via microgrid.**
+>   *Why it matters:* Ports and fleet operators are solving grid constraint and duty-cycle challenges through integrated solar-battery-charge architectures, setting template for hard-to-electrify sectors. [[1]](https://chargedevs.com/newswire/port-of-long-beach-invests-58-2-million-to-expand-vehicle-and-equipment-electrification/) [[2]](https://chargedevs.com/newswire/the-mobility-house-enables-smart-charging-and-v2g-for-california-electric-school-bus-fleet/)
 >
-> **Watch list:** European CPO consolidation · US EV sales rebound post-tax-credit · sodium-ion moves (UNIGRID home storage, Alsym/ERITY) · Grab's 15× charging expansion in Vietnam.
+> **Watch list:** LG Energy Solution's Nanjing expansion for Tesla supply; GM's rumored third EV platform pivot and its competitive implications; sodium-ion battery commercialization (UNIGRID, Alsym) as lithium alternative for stationary and emerging mobile use cases.
 >
 > ---
 >
@@ -88,10 +86,10 @@ is headlines-by-source instead):*
 >
 > | Source | Status | Items in feed | New today | Newest item |
 > |---|---|---|---|---|
-> | Charged EVs | ✓ ok | 10 | 6 | 2026-07-10 |
-> | electrive | ✓ ok | 30 | 10 | 2026-07-11 |
-> | Electrek | ✓ ok | 100 | 17 | 2026-07-13 |
-> | InsideEVs | ✓ ok | 20 | 14 | 2026-07-12 |
+> | Charged EVs | ✓ ok | 10 | 0 | 2026-07-10 |
+> | electrive | ✓ ok | 30 | 0 | 2026-07-11 |
+> | Electrek | ✓ ok | 100 | 0 | 2026-07-13 |
+> | InsideEVs | ✓ ok | 20 | 0 | 2026-07-12 |
 > | Green Car Reports | ⚠ stale | 15 | 0 | 2025-03-31 |
 >
 > ⚠ **Green Car Reports** — newest item is 468 days old (source quiet — possible feed change or shutdown).

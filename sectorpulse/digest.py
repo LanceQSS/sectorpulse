@@ -104,6 +104,11 @@ def summarize(items: list[dict]) -> dict:
     data = json.loads(text)
     if not isinstance(data.get("bullets"), list) or "watch_list" not in data:
         raise ValueError("digest response did not match the expected shape")
+    # The model occasionally rewrites a URL instead of copying it verbatim;
+    # a digest must never ship an invented link.
+    valid_urls = {r["url"] for r in items}
+    for bullet in data["bullets"]:
+        bullet["source_urls"] = [u for u in bullet.get("source_urls", []) if u in valid_urls]
     return data
 
 
